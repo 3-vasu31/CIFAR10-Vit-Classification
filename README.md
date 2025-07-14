@@ -38,3 +38,13 @@ Normalization: Pixel values are normalized to have mean 0.5 and standard deviati
 
 ![Test Input Image](Image/Test%20input%20image.png)
 
+
+## 🚀 Training & Results
+The Vision Transformer (ViT) model was trained for 200 epochs on the CIFAR-10 dataset using the defined data augmentations and preprocessing pipeline. The model reached a test accuracy of ~80%, demonstrating the effectiveness of ViT for multiclass image classification on small datasets.
+### Training and Test accuracy
+![Training and Test accuracy](Image/Training%20and%20Test%20accuracy.png)
+
+### Predicted Train Image
+![Predicted Train Image](Image/Predicted%20train%20dataset.png)
+### Predicted Test Image
+![Predicted Test Image](Image/Predicted%20Test%20dataset.png)
